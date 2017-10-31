@@ -28,10 +28,8 @@ sock.on('message', function (msg, rinfo) {
       headers[head] = value;
     }
 
-    console.log(headers);
-    
     if (headers['ST'] === 'urn:8devices-com:service:lwm2m:1') {
-      var response = 'HTTP/1.1 200 OK\r\n' + 
+      var response = 'HTTP/1.1 200 OK\r\n' +
                      'CACHE-CONTROL: max-age=60\r\n' +
                      'EXT:\r\n' +
                      'LOCATION: http://[' + sock.address().address + ']:' + sock.address().port + '/descriptiondocname\r\n' +
