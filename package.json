@@ -1,0 +1,21 @@
+{
+  "name": "node-restserver-ssdp",
+  "version": "0.0.1",
+  "description": "SSDP server for LwM2M REST service",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/8devices/node-restserver-ssdp.git"
+  },
+  "author": "Giedrius Medzevičius <giedrius@8devices.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8devices/node-restserver-ssdp/issues"
+  },
+  "homepage": "https://github.com/8devices/node-restserver-ssdp#readme"
+}
